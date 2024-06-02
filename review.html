@@ -16,8 +16,8 @@
         <input type="text" placeholder="Masukan Nama anda" id="nama" /> <br />
         <br />
 
-        <label for="">Alamat</label><br />
-        <input type="text" placeholder="Masukan Alamat anda" id="alamat" />
+        <label for="">Kota</label><br />
+        <input type="text" placeholder="Masukan Kota anda" id="alamat" />
         <br />
         <br />
 
@@ -65,8 +65,17 @@
           placeholder="tuliskan kritik dan saran anda disini"
           cols="22"
           rows="5"
-        ></textarea
-        ><br />
+        ></textarea>
+
+        <br />
+        <br />
+
+        <label for="">Kirim review secara anonim?</label><br />
+        <input type="radio" name="anonym" id="anonym" value="anonym" />
+        <label for="anonym">Ya</label>
+        <input type="radio" name="anonym" id="anonym" value="anonym" />
+        <label for="anonym">Tidak</label> <br /><br />
+
         <button type="submit" onclick="kirimData()">Kirim</button>
       </form>
     </div>
