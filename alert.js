@@ -1,3 +1,3 @@
-function alert() {
+function Alert() {
   alert("Terima Kasih!");
 }
