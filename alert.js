@@ -1,1 +1,3 @@
-alert("Terima Kasih!");
+function alert() {
+  alert("Terima Kasih!");
+}
