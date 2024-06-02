@@ -1,8 +1,7 @@
 html,
 body {
   height: 100%;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin: 20%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
