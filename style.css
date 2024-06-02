@@ -2,7 +2,7 @@ html,
 body {
   height: 100%;
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,4 +24,9 @@ img {
   justify-content: space-around;
   width: 100%;
   margin-bottom: 20px;
+}
+
+.col-md-6 {
+  flex: 1;
+  margin: 10px;
 }
