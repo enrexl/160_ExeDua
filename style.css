@@ -30,3 +30,9 @@ img {
   flex: 1;
   margin: 10px;
 }
+
+audio,
+video {
+  display: block;
+  margin: 0 auto;
+}
