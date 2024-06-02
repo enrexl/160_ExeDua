@@ -1,7 +1,8 @@
 html,
 body {
   height: 100%;
-  margin: 0;
+  margin-left: 300px;
+  margin-right: 300px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
@@ -14,14 +15,17 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 80%;
+  width: 70%;
 }
+
 img {
   width: 500px;
 }
+
 .row {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   margin-bottom: 20px;
 }
@@ -29,10 +33,11 @@ img {
 .col-md-6 {
   flex: 1;
   margin: 10px;
+  width: 100%;
 }
 
 audio,
 video {
   display: block;
-  margin: 0 auto;
+  margin: auto;
 }
